@@ -14,3 +14,19 @@ C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter — чи�
 C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter — чистый\obj\Debug\DI-container.FractalPainter.csproj.CopyComplete
 C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter — чистый\obj\Debug\FractalPainter.exe
 C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter — чистый\obj\Debug\FractalPainter.pdb
+C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter\obj\Debug\DI-container.FractalPainter.csproj.AssemblyReference.cache
+C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter\obj\Debug\DI-container.FractalPainter.csproj.CoreCompileInputs.cache
+C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter\obj\Debug\FractalPainter.exe
+C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter\obj\Debug\FractalPainter.pdb
+C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter\bin\Debug\app.settings
+C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter\bin\Debug\FractalPainter.exe.config
+C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter\bin\Debug\FractalPainter.exe
+C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter\bin\Debug\FractalPainter.pdb
+C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter\bin\Debug\Castle.Core.dll
+C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter\bin\Debug\FluentAssertions.Core.dll
+C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter\bin\Debug\FluentAssertions.dll
+C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter\bin\Debug\Ninject.dll
+C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter\bin\Debug\Ninject.Extensions.Conventions.dll
+C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter\bin\Debug\Ninject.Extensions.Factory.dll
+C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter\bin\Debug\nunit.framework.dll
+C:\Users\69\RiderProjects\Ulearn Designing\DI-container.FractalPainter\obj\Debug\DI-container.FractalPainter.csproj.CopyComplete
