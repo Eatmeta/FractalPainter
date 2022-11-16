@@ -4,6 +4,7 @@ using System.Drawing;
 using System.IO;
 using FractalPainting.Infrastructure.Common;
 using FractalPainting.Infrastructure.UiActions;
+using Ninject;
 
 namespace FractalPainting.App
 {
@@ -18,8 +19,7 @@ namespace FractalPainting.App
         {
             ImageSettings = imageSettings;
             ImageHolder = imageHolder;
-		}
-
+        }
         public void Perform()
         {
             SettingsForm.For(ImageSettings).ShowDialog();
@@ -38,8 +38,7 @@ namespace FractalPainting.App
         {
             AppSettings = appSettings;
             ImageHolder = imageHolder;
-		}
-
+        }
         public void Perform()
         {
             var dialog = new SaveFileDialog
@@ -65,8 +64,7 @@ namespace FractalPainting.App
         public PaletteSettingsAction(Palette palette)
         {
             Palette = palette;
-		}
-
+        }
         public void Perform()
         {
             SettingsForm.For(Palette).ShowDialog();
@@ -75,18 +73,6 @@ namespace FractalPainting.App
 
     public class MainForm : Form
     {
-        public MainForm()
-            : this(
-                new IUiAction[]
-                {
-                    new SaveImageAction(Services.GetAppSettings(), Services.GetImageHolder()),
-                    new DragonFractalAction(),
-                    new KochFractalAction(),
-                    new ImageSettingsAction(Services.GetImageSettings(), Services.GetImageHolder()),
-                    new PaletteSettingsAction(Services.GetPalette())
-                }, Services.GetPictureBoxImageHolder())
-        { }
-
         public MainForm(IUiAction[] actions, PictureBoxImageHolder pictureBox)
         {
             var imageSettings = CreateSettingsManager().Load().ImageSettings;
